@@ -30,7 +30,7 @@ public class ApplicationConfiguration {
     }
 
     @Bean
-    public LocalContainerEntityManagerFactoryBean emfb(DataSource dataSource) {
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
         LocalContainerEntityManagerFactoryBean emfb = new LocalContainerEntityManagerFactoryBean();
         emfb.setDataSource(dataSource);
         emfb.setPackagesToScan("be.vdab");
