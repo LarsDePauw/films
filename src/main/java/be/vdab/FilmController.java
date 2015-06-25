@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
+
 public class FilmController {
     @RequestMapping("/hello")
     @ResponseBody
