@@ -23,7 +23,14 @@
 
     <div class="container">
         <div class="title">
-            ${film.title}
+            ${film.title}<br>
+
+                <> href="#" id="mylink"><sf:button class="btn btn-success">My Link</a></a>
+
+                var id = getSomethingDynamic();
+                var url = "http://localhost/" + encodeURIComponent(id);
+
+                document.getElementById("mylink").href = url;
             <a href="http://lmgtfy.com/?q="${film.id}>Details</a>
         </div>
     </div>

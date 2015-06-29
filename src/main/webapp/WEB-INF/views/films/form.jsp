@@ -13,10 +13,11 @@
 <div class="container">
     <h1>Create a movie</h1>
 
-    <div class="form-group">
+    <div>
         <sf:form commandName="film" action="/create" method="post">
-            <div>
-                <sf:input path="title"/>
+            <div class="form-group">
+                <sf:input path="title" class="form-control"/>
+                <sf:errors path="form"/>
             </div>
             <br>
 
