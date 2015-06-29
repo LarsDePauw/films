@@ -5,7 +5,7 @@
     <title>Home</title>
 </head>
 <body>
-Welcome <h1>H.O.M.E.</h1> boyo
+Welcome <h1>H.O.M.E.</h1>
 
 </body>
 </html>

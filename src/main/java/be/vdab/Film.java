@@ -13,17 +13,15 @@ public class Film {
 
     private String title;
 
-    protected Film(){
-    }
-
-    public Film(String title) {
-        this.title = title;
-    }
+    private String imageUrl;
 
     public Integer getId() {
         return id;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getTitle() {
         return title;
@@ -33,7 +31,16 @@ public class Film {
         this.title = title;
     }
 
-    public String toString(){
-        return "title: " + title;
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public Film() {
     }
 }
+
+
